@@ -1,7 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 11
+# Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OALDProto", "OALDProto\OALDProto.csproj", "{8C987618-4CEC-49A9-9814-75DF6317A7F9}"
+EndProject
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "OUPDeploy", "OUPDeploy\OUPDeploy.ccproj", "{C7178558-EFB2-451D-B269-3B868BA2F263}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,6 +15,10 @@ Global
 		{8C987618-4CEC-49A9-9814-75DF6317A7F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C987618-4CEC-49A9-9814-75DF6317A7F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C987618-4CEC-49A9-9814-75DF6317A7F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7178558-EFB2-451D-B269-3B868BA2F263}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7178558-EFB2-451D-B269-3B868BA2F263}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7178558-EFB2-451D-B269-3B868BA2F263}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7178558-EFB2-451D-B269-3B868BA2F263}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
