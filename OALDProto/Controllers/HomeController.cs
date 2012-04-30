@@ -7,16 +7,19 @@ using System.Web;
 using System.Web.Mvc;
 using System.Threading.Tasks;
 using System.Web.Script.Serialization;
+using Microsoft.IdentityModel.Tokens.Saml2;
+using Microsoft.SharePoint.Client;
+using System.IO;
+using System.Net;
+
 
 namespace OALDProto.Controllers
 {
     public class HomeController : Controller
     {
-        public ActionResult Index()
+        public ActionResult Index(String usr)
         {
-            ViewBag.Message = "";
-
-
+            ViewBag.Message = !String.IsNullOrWhiteSpace(usr) ? String.Format("Hi, {0}!", usr) : String.Empty;
 
             return View();
         }
@@ -43,6 +46,11 @@ namespace OALDProto.Controllers
             ViewBag.DictionaryCode = kvs["dictionaryCode"];
             ViewBag.Entry = kvs["entryContent"];
             
+            return View();
+        }
+
+        public ActionResult Partial(String usr)
+        {
             return View();
         }
 

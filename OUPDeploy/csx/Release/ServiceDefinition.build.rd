@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<serviceModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="OUPDeploy" generation="1" functional="0" release="0" Id="77d3d7d8-c6f0-4db8-b2c4-d7e109daaec8" dslVersion="1.2.0.0" xmlns="http://schemas.microsoft.com/dsltools/RDSM">
+<serviceModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="OUPDeploy" generation="1" functional="0" release="0" Id="6cf1e49b-51e4-42f2-ac41-b4613550bab4" dslVersion="1.2.0.0" xmlns="http://schemas.microsoft.com/dsltools/RDSM">
   <groups>
     <group name="OUPDeployGroup" generation="1" functional="0" release="0">
       <componentports>
@@ -68,9 +68,9 @@
     </group>
   </groups>
   <implements>
-    <implementation Id="60079109-5719-4f53-94a3-23dc60c30f33" ref="Microsoft.RedDog.Contract\ServiceContract\OUPDeployContract@ServiceDefinition.build">
+    <implementation Id="9a038b88-2052-41cf-bb6d-b54672b9afd2" ref="Microsoft.RedDog.Contract\ServiceContract\OUPDeployContract@ServiceDefinition.build">
       <interfacereferences>
-        <interfaceReference Id="7773e7cf-ff8d-4bcc-84e4-4a85b90aa898" ref="Microsoft.RedDog.Contract\Interface\OALDProto:Endpoint1@ServiceDefinition.build">
+        <interfaceReference Id="a1a42035-defb-4fc6-bdb3-03676a7e7c7a" ref="Microsoft.RedDog.Contract\Interface\OALDProto:Endpoint1@ServiceDefinition.build">
           <inPort>
             <inPortMoniker name="/OUPDeploy/OUPDeployGroup/OALDProto:Endpoint1" />
           </inPort>

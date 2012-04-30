@@ -1,6 +1,51 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
+    <ValidationIssue Include="OALDProto|Microsoft.IdentityModel.dll|WAT150">
+      <ProjectName>OALDProto</ProjectName>
+      <FilenameWithExtension>Microsoft.IdentityModel.dll</FilenameWithExtension>
+      <Code>WAT150</Code>
+      <FileFullPath>C:\Program Files\Reference Assemblies\Microsoft\Windows Identity Foundation\v3.5\Microsoft.IdentityModel.dll</FileFullPath>
+      <WATMessage>True</WATMessage>
+      <Arguments>OALDProto;C:\Program Files\Reference Assemblies\Microsoft\Windows Identity Foundation\v3.5\Microsoft.IdentityModel.dll</Arguments>
+      <HelpKeyword>WATValidationIssueWarning</HelpKeyword>
+    </ValidationIssue>
+    <ValidationIssue Include="OALDProto|Microsoft.IdentityModel.Tools.FedUtil.dll|WAT150">
+      <ProjectName>OALDProto</ProjectName>
+      <FilenameWithExtension>Microsoft.IdentityModel.Tools.FedUtil.dll</FilenameWithExtension>
+      <Code>WAT150</Code>
+      <FileFullPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Windows Identity Foundation SDK\v4.0\Microsoft.IdentityModel.Tools.FedUtil.dll</FileFullPath>
+      <WATMessage>True</WATMessage>
+      <Arguments>OALDProto;C:\Program Files (x86)\Reference Assemblies\Microsoft\Windows Identity Foundation SDK\v4.0\Microsoft.IdentityModel.Tools.FedUtil.dll</Arguments>
+      <HelpKeyword>WATValidationIssueWarning</HelpKeyword>
+    </ValidationIssue>
+    <ValidationIssue Include="OALDProto|Microsoft.IdentityModel.WindowsTokenService.dll|WAT150">
+      <ProjectName>OALDProto</ProjectName>
+      <FilenameWithExtension>Microsoft.IdentityModel.WindowsTokenService.dll</FilenameWithExtension>
+      <Code>WAT150</Code>
+      <FileFullPath>C:\Program Files\Reference Assemblies\Microsoft\Windows Identity Foundation\v3.5\Microsoft.IdentityModel.WindowsTokenService.dll</FileFullPath>
+      <WATMessage>True</WATMessage>
+      <Arguments>OALDProto;C:\Program Files\Reference Assemblies\Microsoft\Windows Identity Foundation\v3.5\Microsoft.IdentityModel.WindowsTokenService.dll</Arguments>
+      <HelpKeyword>WATValidationIssueWarning</HelpKeyword>
+    </ValidationIssue>
+    <ValidationIssue Include="OALDProto|Microsoft.SharePoint.Client.dll|WAT150">
+      <ProjectName>OALDProto</ProjectName>
+      <FilenameWithExtension>Microsoft.SharePoint.Client.dll</FilenameWithExtension>
+      <Code>WAT150</Code>
+      <FileFullPath>C:\Program Files\Common Files\Microsoft Shared\Web Server Extensions\14\ISAPI\Microsoft.SharePoint.Client.dll</FileFullPath>
+      <WATMessage>True</WATMessage>
+      <Arguments>OALDProto;C:\Program Files\Common Files\Microsoft Shared\Web Server Extensions\14\ISAPI\Microsoft.SharePoint.Client.dll</Arguments>
+      <HelpKeyword>WATValidationIssueWarning</HelpKeyword>
+    </ValidationIssue>
+    <ValidationIssue Include="OALDProto|Microsoft.SharePoint.Client.Runtime.dll|WAT150">
+      <ProjectName>OALDProto</ProjectName>
+      <FilenameWithExtension>Microsoft.SharePoint.Client.Runtime.dll</FilenameWithExtension>
+      <Code>WAT150</Code>
+      <FileFullPath>C:\Program Files\Common Files\Microsoft Shared\Web Server Extensions\14\ISAPI\Microsoft.SharePoint.Client.Runtime.dll</FileFullPath>
+      <WATMessage>True</WATMessage>
+      <Arguments>OALDProto;C:\Program Files\Common Files\Microsoft Shared\Web Server Extensions\14\ISAPI\Microsoft.SharePoint.Client.Runtime.dll</Arguments>
+      <HelpKeyword>WATValidationIssueWarning</HelpKeyword>
+    </ValidationIssue>
     <ValidationIssue Include="OALDProto|ServiceConfiguration.Cloud.cscfg|WAT170">
       <ProjectName>OALDProto</ProjectName>
       <FilenameWithExtension>ServiceConfiguration.Cloud.cscfg</FilenameWithExtension>
