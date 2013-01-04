@@ -1,0 +1,21 @@
+@{
+    ViewBag.Title = "Search Dictionary";
+}
+@section featured {
+    <section class="featured">
+        <div class="content-wrapper">
+            <hgroup class="title">
+                <h1>@ViewBag.Title.</h1>
+                <h2>@ViewBag.Message</h2>
+            </hgroup>
+            <p>
+                Enter your term in search box below.
+            </p>
+        </div>
+    </section>
+}
+@using (Html.BeginForm("Results", "Home", FormMethod.Get, new { }))
+{
+    <input id ="q" name="q" class="searchBox" type="text" />
+    <input type="submit" value="Search"/>
+}

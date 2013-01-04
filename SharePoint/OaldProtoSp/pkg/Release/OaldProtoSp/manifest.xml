@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="da25cb6c-ad80-4ff5-bb50-c752970503d3" SharePointProductVersion="15.0">
+  <FeatureManifests>
+    <FeatureManifest Location="OaldProtoSp_Feature1\Feature.xml" />
+  </FeatureManifests>
+</Solution>

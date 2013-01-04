@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="da25cb6c-ad80-4ff5-bb50-c752970503d3" 
+        solutionId="da25cb6c-ad80-4ff5-bb50-c752970503d3" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="OaldProtoSp"
+        sharePointProductVersion="15.0">
+  <features>
+        <featureReference itemId="9ac397dd-6fe2-4697-91ba-18bcaf7ac1d6" />
+  </features>
+</package>

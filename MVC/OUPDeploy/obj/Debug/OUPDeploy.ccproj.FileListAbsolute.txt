@@ -1,0 +1,1 @@
+C:\dev\git\oald\OUPDeploy\bin\Debug\ServiceConfiguration.cscfg

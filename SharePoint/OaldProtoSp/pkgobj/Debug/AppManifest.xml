@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<App xmlns="http://schemas.microsoft.com/sharepoint/2012/app/manifest"
+     ProductID="{857d0cb1-6326-4ab3-b9c5-8f14ca4e8be9}"
+     Version="1.0.0.0"
+     SharePointMinVersion="15.0.0.0"
+>
+  <Properties>
+    <Title>OaldProtoSp</Title>
+    <StartPage>~appWebUrl/Pages/Home.aspx</StartPage>
+    <!--<StartPage>http://25c1159eb78f418bacc376eeb6ca9c46.cloudapp.net/</StartPage>-->
+  </Properties>
+
+  <AppPrincipal>
+    <Internal />
+  </AppPrincipal>
+
+
+</App>

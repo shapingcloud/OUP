@@ -1,0 +1,12 @@
+﻿@{
+    ViewBag.Title = "Results";
+}
+<h2>Results</h2>
+@using (Html.BeginForm("Results", "Home", FormMethod.Get, new { }))
+{
+    <input id="q" name="q" class="searchBox" type="text" value="@ViewBag.Query" />
+    <input type="submit" value="Search" />
+}
+@*@ViewBag.Query*@
+@*@ViewBag.DictionaryCode*@
+@Html.Raw(ViewBag.Entry)

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Description="SharePoint App Feature" Id="9ac397dd-6fe2-4697-91ba-18bcaf7ac1d6" Scope="Web" Title="OaldProtoSp Feature1">
+  <ElementManifests>
+    <ElementManifest Location="Pages\Elements.xml" />
+    <ElementFile Location="Pages\Home.aspx" />
+    <ElementManifest Location="Scripts\Elements.xml" />
+    <ElementFile Location="Scripts\App.js" />
+    <ElementManifest Location="Styles\Elements.xml" />
+    <ElementFile Location="Styles\App.css" />
+  </ElementManifests>
+</Feature>
